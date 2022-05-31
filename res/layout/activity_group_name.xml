@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GroupName">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add name and Group photo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/iv_group"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter group name"
+        android:layout_margin="5dp"
+        android:id="@+id/grouoname_ET"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="pick"
+        android:textColor="@color/purple_500"
+        android:id="@+id/pick_groupiv"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save_groupbtn"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb_groupname"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>
