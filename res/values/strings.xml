@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">ChatIT</string>
-    <string name="title_activity_tab">TabAct</string>
-    <string name="tab_text_1">Chats</string>
-    <string name="tab_text_2">Groups</string>
-</resources>
